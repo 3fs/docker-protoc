@@ -1,7 +1,7 @@
 FROM golang:1.7.1
 
 # setup
-ENV PROTOBUF_VERSION 3.1.0
+ENV PROTOBUF_VERSION 3.2.0
 WORKDIR /opt/protoc
 
 # Download the zip with the binary
